@@ -1,4 +1,4 @@
-let trips = {drivers: [], passengers: []}
+let trips = {drivers: [], passengers: []};
 
 let driverId = 0;
 class Driver{
@@ -9,7 +9,7 @@ class Driver{
   };
 
   trips(){
-    
+
   }
 };
 
