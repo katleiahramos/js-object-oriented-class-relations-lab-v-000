@@ -17,8 +17,8 @@ class Driver{
   };
 
   passengers(){
-    return this.trips.map( trip => { 
-      return trip.passenger()''
+    return this.trips.map( trip => {
+      return trip.passenger();
     });
   };
 };
@@ -32,7 +32,7 @@ class Passenger{
     store.passengers.push(this);
   };
 
-  
+
 };
 
 let tripId = 0;
