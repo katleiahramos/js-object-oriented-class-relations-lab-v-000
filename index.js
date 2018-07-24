@@ -9,9 +9,9 @@ class Driver{
     trips.drivers.push(this);
   };
 
-  trips(){
-
-  }
+  // trips(){
+  //
+  // }
 };
 
 // class Passengers{
