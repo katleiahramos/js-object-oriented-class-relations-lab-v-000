@@ -18,6 +18,6 @@ let passengerID = 0;
 class Passengers{
   constructor(name){
     this.name = name;
-    this.passengerID = ++ passengerID
+    this.passengerID = ++ passengerID;
   };
 };
