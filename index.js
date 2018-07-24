@@ -14,6 +14,6 @@ class Driver{
   // }
 };
 
-// class Passengers{
-//
-// };
+class Passengers{
+
+};
