@@ -6,7 +6,9 @@ class Driver{
     this.name = name;
   };
 
+  trips(){
 
+  }
 };
 
 // class Passengers{
