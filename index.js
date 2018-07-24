@@ -31,7 +31,7 @@ class Trip{
     store.trips.push(this);
 
     if(driver){
-      this.driverId
+      this.driverId = driver.id
     }
   }
 }
