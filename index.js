@@ -32,6 +32,9 @@ class Trip{
 
     if(driver){
       this.driverId = driver.id;
+    };
+    if(passenger){
+      this.passengerId = passenger.id
     }
   }
 }
