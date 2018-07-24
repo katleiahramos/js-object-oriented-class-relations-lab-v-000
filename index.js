@@ -28,6 +28,6 @@ let tripID = 0;
 class Trips{
   constructor(){
     this.id = ++ tripID;
-    store.trips.push(this)
+    store.trips.push(this);
   }
 }
