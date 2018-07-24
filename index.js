@@ -1,4 +1,4 @@
-let store = {drivers: [], passengers: [], trips: []};
+let store = {drivers: [], passengers: []};
 
 let driverID = 0;
 class Driver{
@@ -9,9 +9,9 @@ class Driver{
     store.drivers.push(this);
   };
 
-  // trips(){
-  //
-  // }
+  trips(){
+
+  }
 };
 
 // class Passengers{
