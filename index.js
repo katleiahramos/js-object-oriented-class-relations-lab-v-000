@@ -24,12 +24,14 @@ class Passenger{
   };
 };
 
-let tripID = 0;
+let tripId = 0;
 class Trip{
   constructor(driver, passenger){
-    this.id = ++ tripID;
+    this.id = ++ tripId;
     store.trips.push(this);
 
-    if(driver)
+    if(driver){
+      this.driverId
+    }
   }
 }
