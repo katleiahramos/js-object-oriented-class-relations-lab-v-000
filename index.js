@@ -1,9 +1,9 @@
 let trips = {drivers: [], passengers: []};
 
-let driverId = 0;
+let driverID = 0;
 class Driver{
 
-  constructor(name, id){
+  constructor(name, driverid){
     this.id = ++driverID;
     this.name = name;
     trips.drivers.push(this);
