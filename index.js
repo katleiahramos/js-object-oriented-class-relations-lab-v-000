@@ -1,4 +1,4 @@
-let trips = {drivers: [], passengers: []};
+let store = {drivers: [], passengers: []};
 
 let driverID = 0;
 class Driver{
