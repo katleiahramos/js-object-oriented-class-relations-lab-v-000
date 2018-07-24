@@ -23,3 +23,7 @@ class Passenger{
     store.passengers.push(this);
   };
 };
+
+class Trips{
+
+}
