@@ -34,7 +34,7 @@ class Trip{
       this.driverId = driver.id;
     };
     if(passenger){
-      this.passengerId = passenger.id
-    }
-  }
-}
+      this.passengerId = passenger.id;
+    };
+  };
+};
