@@ -10,8 +10,10 @@ class Driver{
   };
 
   trips(){
-    return store.trips.filter( trip => {return trip.userID === this.id})
-  }
+    return store.trips.filter( trip => {
+      return trip.userID === this.id;
+    });
+  };
 };
 
 let passengerId = 0;
