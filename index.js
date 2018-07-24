@@ -3,6 +3,7 @@ class Driver{
 
   constructor(name, id){
     this.id = ++driverID
+    this.name = name;
   };
 };
 
